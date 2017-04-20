@@ -30,6 +30,7 @@
     - slack
     - caffeine
     - java
+    - intellij-idea
 
 - name: Install homebrew packages
   homebrew: name={{ item }}
