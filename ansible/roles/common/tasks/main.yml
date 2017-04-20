@@ -15,6 +15,8 @@
     - ruby-build
     - rbenv-gemset
     - pyenv
+    - automake
+    - pkg-config
 
 - name: Add homebrew tap repositories
   homebrew_tap: tap={{ item }} state=present
@@ -31,6 +33,7 @@
     - caffeine
     - java
     - intellij-idea
+    - xquartz
 
 - name: Install homebrew packages
   homebrew: name={{ item }}
@@ -38,11 +41,18 @@
     - jenv
     - sbt
     - typesafe-activator
+    - sanemat/font/ricty
 
 - name: Clone dotfiles repository
   git:
     repo: https://github.com/yukihirai0505/dotfiles.git
     dest: "{{ ansible_env.HOME }}/dotfiles"
+
+- name: Copy ricty to Library
+  shell: cp -f /usr/local/Cellar/ricty/*/share/fonts/Ricty*.ttf "{{ ansible_env.HOME }}/Library/Fonts/"
+
+- name: Set up ricty
+  shell: fc-cache -vf
 
 - name: Set up dotfiles
   shell: "sh {{ ansible_env.HOME }}/dotfiles/dotfilesLink.sh"
