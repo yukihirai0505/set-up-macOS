@@ -18,6 +18,7 @@
     - pyenv
     - automake
     - pkg-config
+    - mysql
 
 - name: Add homebrew tap repositories
   homebrew_tap: tap={{ item }} state=present
@@ -34,6 +35,8 @@
     - caffeine
     - java
     - intellij-idea
+    - phpstorm
+    - webstorm
     - xquartz
     - mysqlworkbench
 
