@@ -14,7 +14,6 @@
     - rbenv
     - ruby-build
     - rbenv-gemset
-    - rbenv-gem-rehash
     - pyenv
 
 - name: Add homebrew tap repositories
@@ -31,7 +30,6 @@
     - slack
     - caffeine
     - java
-    - java7
 
 - name: Install homebrew packages
   homebrew: name={{ item }}
@@ -43,10 +41,10 @@
 - name: Clone dotfiles repository
   git:
     repo: https://github.com/yukihirai0505/dotfiles.git
-    dest: {{ ansible_env.HOME}}/dotfiles
+    dest: "{{ ansible_env.HOME }}/dotfiles"
 
 - name: Set up dotfiles
-  shell: {{ ansible_env.HOME}}/dotfiles/dotfilesLink.sh
+  shell: "sh {{ ansible_env.HOME }}/dotfiles/dotfilesLink.sh"
 
 - name: Change shell
   shell: sudo sh -c 'echo "/usr/local/bin/zsh" >> /etc/shells';chpass -s /usr/local/bin/zsh;source ~/.zshrc
