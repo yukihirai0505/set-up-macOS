@@ -5,3 +5,5 @@
 brew update
 
 # Intall ansible
+sudo easy_install pip
+sudo pip install ansible
