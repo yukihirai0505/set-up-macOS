@@ -48,14 +48,19 @@
     repo: https://github.com/yukihirai0505/dotfiles.git
     dest: "{{ ansible_env.HOME }}/dotfiles"
 
+- name: Set up dotfiles
+  shell: "sh {{ ansible_env.HOME }}/dotfiles/dotfilesLink.sh"
+
+- name: Change shell
+  shell: sudo sh -c 'echo "/usr/local/bin/zsh" >> /etc/shells';chpass -s /usr/local/bin/zsh;source ~/.zshrc
+
 - name: Copy ricty to Library
   shell: cp -f /usr/local/Cellar/ricty/*/share/fonts/Ricty*.ttf "{{ ansible_env.HOME }}/Library/Fonts/"
 
 - name: Set up ricty
   shell: fc-cache -vf
 
-- name: Set up dotfiles
-  shell: "sh {{ ansible_env.HOME }}/dotfiles/dotfilesLink.sh"
-
-- name: Change shell
-  shell: sudo sh -c 'echo "/usr/local/bin/zsh" >> /etc/shells';chpass -s /usr/local/bin/zsh;source ~/.zshrc
+- name: Clone neobundle repository
+  git:
+    repo: https://github.com/Shougo/neobundle.vim
+    dest: "{{ ansible_env.HOME }}/.vim/neobundle.vim"
