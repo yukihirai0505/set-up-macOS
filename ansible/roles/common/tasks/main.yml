@@ -58,14 +58,31 @@
 - name: Set up dotfiles
   shell: "sh {{ ansible_env.HOME }}/dotfiles/dotfilesLink.sh"
 
+- name: Set local zsh
+  become: true
+  lineinfile:
+    path: /etc/shells
+    line: '/usr/local/bin/zsh'
+
 - name: Change shell
-  shell: sudo sh -c 'echo "/usr/local/bin/zsh" >> /etc/shells';chpass -s /usr/local/bin/zsh;source ~/.zshrc
+  become: true
+  shell: 'chpass -s /usr/local/bin/zsh'
+
+- name: Source .zshrc
+  shell: 'source ~/.zshrc'
+
+- name: Check ricty file
+  stat:
+    path: "{{ ansible_env.HOME }}/Library/Fonts/Ricty-Regular.ttf"
+  register: ricty
 
 - name: Copy ricty to Library
   shell: cp -f /usr/local/Cellar/ricty/*/share/fonts/Ricty*.ttf "{{ ansible_env.HOME }}/Library/Fonts/"
+  when: not ricty.stat.exists
 
 - name: Set up ricty
   shell: fc-cache -vf
+  when: not ricty.stat.exists
 
 - name: Clone neobundle repository
   git:

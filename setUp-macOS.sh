@@ -23,4 +23,4 @@ if ! has ansible; then
 fi
 
 # Execute ansible
-ansible-playbook -i ./ansible/localhost ./ansible/localhost.yml
+ansible-playbook -i ./ansible/localhost ./ansible/localhost.yml --ask-sudo-pass
