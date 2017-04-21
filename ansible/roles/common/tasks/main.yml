@@ -47,6 +47,8 @@
     - sbt
     - typesafe-activator
     - sanemat/font/ricty
+    - memcached
+    - redis
 
 - name: Clone dotfiles repository
   git:
