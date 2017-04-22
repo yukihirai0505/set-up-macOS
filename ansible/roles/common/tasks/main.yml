@@ -65,7 +65,6 @@
     line: '/usr/local/bin/zsh'
 
 - name: Change shell
-  become: true
   shell: 'chpass -s /usr/local/bin/zsh'
 
 - name: Source .zshrc
