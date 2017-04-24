@@ -40,6 +40,8 @@
     - pycharm
     - xquartz
     - mysqlworkbench
+    - virtualbox
+    - vagrant
 
 - name: Install homebrew packages
   homebrew: name={{ item }}
