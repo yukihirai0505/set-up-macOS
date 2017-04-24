@@ -50,6 +50,7 @@
     - sanemat/font/ricty
     - memcached
     - redis
+    - webkit2png
 
 - name: Clone dotfiles repository
   git:
