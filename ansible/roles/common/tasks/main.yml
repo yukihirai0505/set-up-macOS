@@ -42,6 +42,7 @@
     - mysqlworkbench
     - virtualbox
     - vagrant
+    - mamp
 
 - name: Install homebrew packages
   homebrew: name={{ item }}
