@@ -40,6 +40,9 @@
     - pycharm
     - xquartz
     - mysqlworkbench
+    - virtualbox
+    - vagrant
+    - mamp
 
 - name: Install homebrew packages
   homebrew: name={{ item }}
@@ -50,6 +53,7 @@
     - sanemat/font/ricty
     - memcached
     - redis
+    - webkit2png
     - postgresql
 
 - name: Clone dotfiles repository
