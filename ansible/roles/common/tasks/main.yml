@@ -55,6 +55,7 @@
     - redis
     - webkit2png
     - postgresql
+    - lha
 
 - name: Clone dotfiles repository
   git:
