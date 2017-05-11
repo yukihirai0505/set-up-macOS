@@ -57,6 +57,10 @@
     - postgresql
     - lha
 
+- name: Install pip packages
+  pip:
+    name: fabric
+
 - name: Clone dotfiles repository
   git:
     repo: https://github.com/yukihirai0505/dotfiles.git
