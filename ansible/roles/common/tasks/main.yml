@@ -56,6 +56,7 @@
     - webkit2png
     - postgresql
     - lha
+    - go
 
 - name: Install pip packages
   pip:
