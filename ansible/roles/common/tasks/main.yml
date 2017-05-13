@@ -57,6 +57,7 @@
     - postgresql
     - lha
     - go
+    - go-delve/delve/delve
 
 - name: Install pip packages
   pip:
