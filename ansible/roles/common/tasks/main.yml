@@ -43,6 +43,7 @@
     - virtualbox
     - vagrant
     - mamp
+    - docker
 
 - name: Install homebrew packages
   homebrew: name={{ item }}
