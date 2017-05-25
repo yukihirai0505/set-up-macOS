@@ -79,8 +79,13 @@
     path: /etc/shells
     line: '/usr/local/bin/zsh'
 
+- name: Check shell
+  shell: 'echo `echo $SHELL | grep zsh | wc -l`'
+  register: check_shell
+
 - name: Change shell
   shell: 'chpass -s /usr/local/bin/zsh'
+  when: check_shell.stdout == "0"
 
 - name: Source .zshrc
   shell: 'source ~/.zshrc'
