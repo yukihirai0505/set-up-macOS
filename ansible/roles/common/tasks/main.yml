@@ -65,6 +65,11 @@
   pip:
     name: fabric
 
+- name: Install latest available version of tmuxinator.
+  gem:
+    name: tmuxinator
+    state: latest
+
 - name: Clone dotfiles repository
   git:
     repo: https://github.com/yukihirai0505/dotfiles.git
