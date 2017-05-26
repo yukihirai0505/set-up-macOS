@@ -65,10 +65,11 @@
   pip:
     name: fabric
 
-- name: Install latest available version of tmuxinator.
-  gem:
-    name: tmuxinator
-    state: latest
+- name: Install latest available version of gems.
+  gem: name={{ item }} state=latest
+  with_items:
+    - tmuxinator
+    - serverspec
 
 - name: Clone dotfiles repository
   git:
