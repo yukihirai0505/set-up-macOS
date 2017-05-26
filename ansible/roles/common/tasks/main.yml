@@ -60,6 +60,8 @@
     - lha
     - go
     - go-delve/delve/delve
+    - direnv
+    # TODO: awscli
 
 - name: Install pip packages
   pip:
