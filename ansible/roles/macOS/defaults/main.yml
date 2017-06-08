@@ -1,0 +1,59 @@
+---
+
+homebrew_before_pkgs:
+  - git
+  - gibo
+  - zsh
+  - tmux
+  - reattach-to-user-namespace
+  - ctags
+  - rbenv
+  - ruby-build
+  - rbenv-gemset
+  - pyenv
+  - automake
+  - pkg-config
+  - mysql
+
+homebrew_cask_pkgs:
+  - iterm2
+  - atom
+  - google-chrome
+  - slack
+  - caffeine
+  - java
+  - intellij-idea
+  - phpstorm
+  - webstorm
+  - pycharm
+  - datagrip
+  - xquartz
+  - mysqlworkbench
+  - virtualbox
+  - vagrant
+  - mamp
+  - docker
+
+homebrew_after_pkgs:
+  - jenv
+  - sbt
+  - typesafe-activator
+  - sanemat/font/ricty
+  - memcached
+  - redis
+  - webkit2png
+  - postgresql
+  - lha
+  - go
+  - go-delve/delve/delve
+  - direnv
+  - node
+  # TODO: awscli
+
+gem_pkgs:
+  - tmuxinator
+  - serverspec
+
+npm_pkgs:
+  - gulp
+  - create-react-app
