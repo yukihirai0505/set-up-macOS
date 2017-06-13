@@ -12,6 +12,9 @@
   with_items:
     - caskroom/cask
 
+- name: Update homebrew_cask itself first
+  homebrew: update_homebrew=yes
+
 - name: Install Homebrew cask packages
   homebrew_cask: name={{ item }}
   with_items: "{{ homebrew_cask_pkgs }}"

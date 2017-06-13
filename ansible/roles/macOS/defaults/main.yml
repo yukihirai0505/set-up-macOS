@@ -48,6 +48,7 @@ homebrew_after_pkgs:
   - go-delve/delve/delve
   - direnv
   - node
+  - s3cmd
   # TODO: awscli
 
 gem_pkgs:
