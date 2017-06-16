@@ -24,3 +24,5 @@ fi
 
 # Execute ansible
 ansible-playbook -i ./ansible/localhost ./ansible/localhost.yml --ask-sudo-pass
+
+printf "${BLUE}==>${NORMAL} ${BOLD}Let's eat 🍣 ${NORMAL}\n"
