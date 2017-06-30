@@ -49,7 +49,7 @@ homebrew_after_pkgs:
   - direnv
   - node
   - s3cmd
-  # TODO: awscli
+  - awscli
 
 gem_pkgs:
   - tmuxinator
