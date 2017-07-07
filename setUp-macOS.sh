@@ -24,3 +24,9 @@ fi
 
 # Execute ansible
 ansible-playbook -i ./ansible/localhost ./ansible/localhost.yml --ask-sudo-pass
+
+BOLD=$(tput bold)
+BLUE=$(tput setaf 4)
+NORMAL=$(tput sgr0)
+
+printf "${BLUE}==>${NORMAL} ${BOLD}Let's eat 🍣 ${NORMAL}\n"
