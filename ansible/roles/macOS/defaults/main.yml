@@ -50,6 +50,7 @@ homebrew_after_pkgs:
   - node
   - s3cmd
   - awscli
+  - peco
 
 gem_pkgs:
   - tmuxinator
