@@ -33,6 +33,7 @@ homebrew_cask_pkgs:
   - vagrant
   - mamp
   - docker
+  - clion
 
 homebrew_after_pkgs:
   - jenv
