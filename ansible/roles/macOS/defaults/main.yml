@@ -33,7 +33,7 @@ homebrew_cask_pkgs:
   - vagrant
   - mamp
   - docker
-  - alfred2
+  - alfred
   - clion
 
 homebrew_after_pkgs:
