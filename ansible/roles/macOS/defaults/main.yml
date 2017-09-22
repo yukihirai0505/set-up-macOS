@@ -51,7 +51,7 @@ homebrew_after_pkgs:
   - direnv
   - node
   - s3cmd
-  - awscli
+  #- awscli
   - peco
   - imagemagick
   - ghostscript
