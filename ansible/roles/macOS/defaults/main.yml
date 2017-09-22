@@ -53,6 +53,8 @@ homebrew_after_pkgs:
   - s3cmd
   - awscli
   - peco
+  - imagemagick
+  - ghostscript
 
 gem_pkgs:
   - tmuxinator
