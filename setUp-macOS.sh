@@ -23,7 +23,7 @@ if ! has ansible; then
 fi
 
 # Execute ansible
-ansible-playbook -i ./ansible/localhost ./ansible/localhost.yml --ask-sudo-pass
+ansible-playbook -i ./ansible/localhost ./ansible/localhost.yml --ask-sudo-pass -vv
 
 BOLD=$(tput bold)
 BLUE=$(tput setaf 4)
