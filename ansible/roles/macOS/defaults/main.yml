@@ -54,6 +54,7 @@ homebrew_after_pkgs:
   - peco
   - imagemagick
   - ghostscript
+  - jq
 
 gem_pkgs:
   - serverspec
