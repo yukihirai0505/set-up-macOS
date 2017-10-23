@@ -55,6 +55,7 @@ homebrew_after_pkgs:
   - imagemagick
   - ghostscript
   - jq
+  - nkf
 
 gem_pkgs:
   - serverspec
