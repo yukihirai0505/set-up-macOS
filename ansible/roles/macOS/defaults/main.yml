@@ -64,3 +64,4 @@ npm_pkgs:
   - gulp
   - create-react-app
   - yaml2json
+  - aglio
