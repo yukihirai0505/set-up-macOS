@@ -56,6 +56,7 @@ homebrew_after_pkgs:
   - ghostscript
   - jq
   - nkf
+  - apache-spark
 
 gem_pkgs:
   - serverspec
