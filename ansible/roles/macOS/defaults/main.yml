@@ -58,6 +58,7 @@ homebrew_after_pkgs:
   - nkf
   - apache-spark
   - tree
+  - python2
 
 gem_pkgs:
   - serverspec
