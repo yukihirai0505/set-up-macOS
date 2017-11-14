@@ -3,8 +3,8 @@
 - include: homebrew.yml
 - include: pip.yml
 - include: gem.yml
-- include: npm.yml
 - include: zsh.yml
+- include: npm.yml
 - include: ricty.yml
 
 - name: Clone neobundle repository
