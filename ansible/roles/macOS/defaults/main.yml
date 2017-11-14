@@ -68,3 +68,4 @@ npm_pkgs:
   - create-react-app
   - yaml2json
   - aglio
+  - serverless
