@@ -36,6 +36,7 @@ homebrew_cask_pkgs:
   - alfred
   - clion
   - dropbox
+  - 1password
 
 homebrew_after_pkgs:
   - jenv
