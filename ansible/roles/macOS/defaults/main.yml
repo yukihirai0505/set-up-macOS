@@ -37,6 +37,7 @@ homebrew_cask_pkgs:
   - clion
   - dropbox
   - 1password
+  - appcleaner
 
 homebrew_after_pkgs:
   - jenv
