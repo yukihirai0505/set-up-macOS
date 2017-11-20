@@ -35,6 +35,7 @@ homebrew_cask_pkgs:
   - docker
   - alfred
   - clion
+  - dropbox
 
 homebrew_after_pkgs:
   - jenv
