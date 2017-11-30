@@ -64,3 +64,12 @@ $ brew link --overwrite python
 ```
 
 The command creates new sym links.
+
+```
+error in cryptography setup command: Invalid environment marker: python_version < '3' 
+```
+
+```bash
+$ sudo pip install --upgrade setuptools
+$ xcode-select --install
+```
