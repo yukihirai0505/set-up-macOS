@@ -63,6 +63,7 @@ homebrew_after_pkgs:
   - tree
   - python2
   - openssl
+  - nodenv
 
 gem_pkgs:
   - serverspec
