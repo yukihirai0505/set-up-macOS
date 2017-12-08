@@ -64,6 +64,8 @@ homebrew_after_pkgs:
   - python2
   - openssl
   - nodenv
+  - tig
+  - less
 
 gem_pkgs:
   - serverspec
