@@ -65,6 +65,8 @@ homebrew_after_pkgs:
   - openssl
   - nodenv
   - remind101/formulae/assume-role
+  - tig
+  - less
 
 gem_pkgs:
   - serverspec
