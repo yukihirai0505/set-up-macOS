@@ -64,6 +64,7 @@ homebrew_after_pkgs:
   - python2
   - openssl
   - nodenv
+  - remind101/formulae/assume-role
 
 gem_pkgs:
   - serverspec
