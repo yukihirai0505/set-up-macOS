@@ -67,6 +67,7 @@ homebrew_after_pkgs:
   - remind101/formulae/assume-role
   - tig
   - less
+  - amazon-ecs-cli
 
 gem_pkgs:
   - serverspec
