@@ -36,7 +36,6 @@ homebrew_cask_pkgs:
   - alfred
   - clion
   - dropbox
-  - 1password
   - appcleaner
 
 homebrew_after_pkgs:
