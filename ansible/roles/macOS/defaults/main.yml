@@ -67,6 +67,7 @@ homebrew_after_pkgs:
   - tig
   - less
   - amazon-ecs-cli
+  - gcc
 
 gem_pkgs:
   - serverspec
