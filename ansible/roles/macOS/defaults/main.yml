@@ -37,6 +37,8 @@ homebrew_cask_pkgs:
   - clion
   - dropbox
   - appcleaner
+  - discord
+  - telegram
 
 homebrew_after_pkgs:
   - jenv
