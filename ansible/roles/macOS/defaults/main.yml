@@ -81,3 +81,4 @@ npm_pkgs:
   - aglio
   - serverless
   - node-inspector
+  - truffle
