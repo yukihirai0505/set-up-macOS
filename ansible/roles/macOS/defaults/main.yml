@@ -70,6 +70,7 @@ homebrew_after_pkgs:
   - less
   - amazon-ecs-cli
   - gcc
+  - embulk
 
 gem_pkgs:
   - serverspec
