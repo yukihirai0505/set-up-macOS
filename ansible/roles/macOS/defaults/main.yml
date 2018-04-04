@@ -39,6 +39,7 @@ homebrew_cask_pkgs:
   - appcleaner
   - discord
   - telegram
+  - caskroom/versions/java8
 
 homebrew_after_pkgs:
   - jenv
