@@ -83,4 +83,4 @@ npm_pkgs:
   - serverless
   - node-inspector
   - truffle
-  - clasp
+  - "@google/clasp"
