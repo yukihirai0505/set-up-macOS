@@ -46,7 +46,6 @@ homebrew_pkgs:
   - embulk
 
 homebrew_cask_pkgs:
-  - java8
   - iterm2
   - atom
   - google-chrome
