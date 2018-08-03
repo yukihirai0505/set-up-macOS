@@ -10,7 +10,7 @@
 - name: Add homebrew tap repositories
   homebrew_tap: tap={{ item }} state=present
   with_items:
-    - caskroom/cask
+    - homebrew/cask
 
 - name: Update homebrew_cask itself first
   homebrew: update_homebrew=yes

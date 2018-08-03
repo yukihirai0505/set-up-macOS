@@ -71,6 +71,7 @@ homebrew_cask_pkgs:
   - discord
   - telegram
   - gimp
+  - visual-studio-code
 
 gem_pkgs:
   - serverspec
