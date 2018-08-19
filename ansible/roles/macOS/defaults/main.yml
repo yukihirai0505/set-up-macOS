@@ -1,6 +1,6 @@
 ---
 
-homebrew_before_pkgs:
+homebrew_pkgs:
   - git
   - gibo
   - zsh
@@ -14,35 +14,6 @@ homebrew_before_pkgs:
   - automake
   - pkg-config
   - mysql
-
-homebrew_cask_pkgs:
-  - iterm2
-  - atom
-  - google-chrome
-  - slack
-  - caffeine
-  - java
-  - intellij-idea
-  - phpstorm
-  - webstorm
-  - pycharm
-  - datagrip
-  - xquartz
-  - mysqlworkbench
-  - virtualbox
-  - vagrant
-  - mamp
-  - docker
-  - alfred
-  - clion
-  - dropbox
-  - appcleaner
-  - discord
-  - telegram
-  - caskroom/versions/java8
-  - skype
-
-homebrew_after_pkgs:
   - jenv
   - sbt
   - typesafe-activator
@@ -74,6 +45,34 @@ homebrew_after_pkgs:
   - gcc
   - embulk
 
+homebrew_cask_pkgs:
+  - iterm2
+  - atom
+  - google-chrome
+  - slack
+  - caffeine
+  - java
+  - intellij-idea
+  - phpstorm
+  - webstorm
+  - pycharm
+  - datagrip
+  - xquartz
+  - mysqlworkbench
+  - virtualbox
+  - vagrant
+  - mamp
+  - docker
+  - alfred
+  - clion
+  - dropbox
+  - appcleaner
+  - discord
+  - telegram
+  - gimp
+  - visual-studio-code
+  - skype
+
 gem_pkgs:
   - serverspec
 
@@ -85,3 +84,4 @@ npm_pkgs:
   - serverless
   - node-inspector
   - truffle
+  - "@google/clasp"

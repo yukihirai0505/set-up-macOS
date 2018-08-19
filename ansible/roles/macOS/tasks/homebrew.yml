@@ -5,12 +5,12 @@
 
 - name: Install homebrew packages
   homebrew: name={{ item }}
-  with_items: "{{ homebrew_before_pkgs }}"
+  with_items: "{{ homebrew_pkgs }}"
 
 - name: Add homebrew tap repositories
   homebrew_tap: tap={{ item }} state=present
   with_items:
-    - caskroom/cask
+    - homebrew/cask
 
 - name: Update homebrew_cask itself first
   homebrew: update_homebrew=yes
@@ -18,7 +18,3 @@
 - name: Install Homebrew cask packages
   homebrew_cask: name={{ item }}
   with_items: "{{ homebrew_cask_pkgs }}"
-
-- name: Install homebrew packages
-  homebrew: name={{ item }}
-  with_items: "{{ homebrew_after_pkgs }}"
