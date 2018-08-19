@@ -40,6 +40,7 @@ homebrew_cask_pkgs:
   - discord
   - telegram
   - caskroom/versions/java8
+  - skype
 
 homebrew_after_pkgs:
   - jenv
