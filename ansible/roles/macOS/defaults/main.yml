@@ -85,3 +85,6 @@ npm_pkgs:
   - node-inspector
   - truffle
   - "@google/clasp"
+  - yo
+  - bower
+  - generator-chrome-extension
