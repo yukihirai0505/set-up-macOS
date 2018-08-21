@@ -44,6 +44,7 @@ homebrew_pkgs:
   - amazon-ecs-cli
   - gcc
   - embulk
+  - elixir
 
 homebrew_cask_pkgs:
   - iterm2
