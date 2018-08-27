@@ -89,3 +89,4 @@ npm_pkgs:
   - yo
   - bower
   - generator-chrome-extension
+  - eslint
