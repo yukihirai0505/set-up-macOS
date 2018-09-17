@@ -83,7 +83,6 @@ npm_pkgs:
   - yaml2json
   - aglio
   - serverless
-  - node-inspector
   - truffle
   - "@google/clasp"
   - yo
