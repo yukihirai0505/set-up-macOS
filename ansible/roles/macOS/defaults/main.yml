@@ -48,7 +48,6 @@ homebrew_pkgs:
 
 homebrew_cask_pkgs:
   - iterm2
-  - atom
   - google-chrome
   - slack
   - caffeine
