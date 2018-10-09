@@ -24,7 +24,6 @@ homebrew_pkgs:
   - postgresql
   - lha
   - go
-  - go-delve/delve/delve
   - direnv
   - node
   - s3cmd
@@ -76,15 +75,3 @@ homebrew_cask_pkgs:
 gem_pkgs:
   - serverspec
 
-npm_pkgs:
-  - gulp
-  - create-react-app
-  - yaml2json
-  - aglio
-  - serverless
-  - truffle
-  - "@google/clasp"
-  - yo
-  - bower
-  - generator-chrome-extension
-  - eslint
