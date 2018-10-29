@@ -1,7 +1,6 @@
 ---
 
 - include: homebrew.yml
-- include: gem.yml
 - include: zsh.yml
 - include: ricty.yml
 

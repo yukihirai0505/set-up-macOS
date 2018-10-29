@@ -18,10 +18,7 @@ homebrew_pkgs:
   - sbt
   - typesafe-activator
   - sanemat/font/ricty
-  - memcached
-  - redis
   - webkit2png
-  - postgresql
   - lha
   - go
   - direnv
@@ -61,18 +58,11 @@ homebrew_cask_pkgs:
   - mysqlworkbench
   - virtualbox
   - vagrant
-  - mamp
   - docker
-  - alfred
   - clion
   - dropbox
   - appcleaner
   - discord
-  - telegram
-  - gimp
   - visual-studio-code
   - skype
-
-gem_pkgs:
-  - serverspec
 

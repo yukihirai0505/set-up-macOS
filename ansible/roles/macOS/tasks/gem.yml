@@ -1,5 +1,0 @@
----
-
-- name: Install latest available version of gems.
-  gem: name={{ item }} state=latest
-  with_items: "{{ gem_pkgs }}"
