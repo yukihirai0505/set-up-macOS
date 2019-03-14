@@ -18,13 +18,9 @@ homebrew_pkgs:
   - sbt
   - typesafe-activator
   - sanemat/font/ricty
-  - memcached
-  - redis
   - webkit2png
-  - postgresql
   - lha
   - go
-  - go-delve/delve/delve
   - direnv
   - node
   - s3cmd
@@ -45,6 +41,7 @@ homebrew_pkgs:
   - gcc
   - embulk
   - elixir
+  - watchman
 
 homebrew_cask_pkgs:
   - iterm2
@@ -56,7 +53,6 @@ homebrew_cask_pkgs:
   - mysqlworkbench
   - virtualbox
   - vagrant
-  - mamp
   - docker
   - dropbox
   - appcleaner
@@ -65,18 +61,3 @@ homebrew_cask_pkgs:
   - visual-studio-code
   - skype
 
-gem_pkgs:
-  - serverspec
-
-npm_pkgs:
-  - gulp
-  - create-react-app
-  - yaml2json
-  - aglio
-  - serverless
-  - truffle
-  - "@google/clasp"
-  - yo
-  - bower
-  - generator-chrome-extension
-  - eslint
