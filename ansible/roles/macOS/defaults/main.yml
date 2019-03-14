@@ -48,7 +48,6 @@ homebrew_cask_pkgs:
   - google-chrome
   - slack
   - java
-  - datagrip
   - xquartz
   - mysqlworkbench
   - virtualbox
