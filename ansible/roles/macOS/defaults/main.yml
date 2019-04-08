@@ -22,7 +22,7 @@ homebrew_pkgs:
 
 homebrew_cask_pkgs:
   - iterm2
-  - java
+  - caskroom/versions/java8
   - mysqlworkbench
   - docker
   - appcleaner
